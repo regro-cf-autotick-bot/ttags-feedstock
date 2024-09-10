@@ -1,5 +1,5 @@
 {% set name = "ttags" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/npezza93/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: da8681a25122543d25362eb91a3be610f86e7bd6e0a0da6947511a59762c4325
+  sha256: 76ad680d407b665c53f14baad168e8321434cb91be88b5087d7b67db8162aa87
 
 build:
   number: 0
